@@ -1,0 +1,631 @@
+07:51:47 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+07:51:47 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+07:51:48 | Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:49 | Request finished in 913.9277ms 404 
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request starting HTTP/1.1 GET https://localhost:5001/swagger  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request finished in 9.0877ms 301 
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request finished in 212.3317ms 200 text/html
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request finished in 93.6579ms 200 application/javascript
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request finished in 112.7267ms 200 text/css
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+-------------------------------------------------------------------------------------------------------------------------
+07:51:55 | Request finished in 134.6058ms 200 application/javascript
+-------------------------------------------------------------------------------------------------------------------------
+07:51:57 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+-------------------------------------------------------------------------------------------------------------------------
+07:51:57 | Request finished in 259.5511ms 200 application/json;charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+07:52:08 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+07:52:45 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+07:52:45 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+07:52:45 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+07:52:45 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+07:52:45 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+07:52:46 | Query: '(from Order <generated>_2 in DbSet<Order> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+-------------------------------------------------------------------------------------------------------------------------
+07:52:46 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 863.1756ms.
+-------------------------------------------------------------------------------------------------------------------------
+07:52:46 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+07:52:46 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 964.5436ms
+-------------------------------------------------------------------------------------------------------------------------
+07:52:46 | Request finished in 1182.0293ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:10:23 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+08:10:25 | Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+-------------------------------------------------------------------------------------------------------------------------
+08:10:25 | Request finished in 628.9347ms 404 
+-------------------------------------------------------------------------------------------------------------------------
+08:10:30 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+-------------------------------------------------------------------------------------------------------------------------
+08:10:30 | Request finished in 248.1679ms 200 text/html
+-------------------------------------------------------------------------------------------------------------------------
+08:10:33 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+-------------------------------------------------------------------------------------------------------------------------
+08:10:33 | Request finished in 315.156ms 200 application/json;charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:16:18 | Query: '(from Order <generated>_2 in DbSet<Order> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+-------------------------------------------------------------------------------------------------------------------------
+08:16:19 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1002.9456ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:16:19 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:16:19 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 1194.6659ms
+-------------------------------------------------------------------------------------------------------------------------
+08:16:19 | Request finished in 1488.2054ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:33:02 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+08:33:04 | Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+-------------------------------------------------------------------------------------------------------------------------
+08:33:04 | Request finished in 708.8914ms 404 
+-------------------------------------------------------------------------------------------------------------------------
+08:33:09 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+-------------------------------------------------------------------------------------------------------------------------
+08:33:09 | Request finished in 346.0506ms 200 text/html
+-------------------------------------------------------------------------------------------------------------------------
+08:33:11 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+-------------------------------------------------------------------------------------------------------------------------
+08:33:12 | Request finished in 286.7215ms 200 application/json;charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:33:26 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:33:26 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:33:27 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:33:27 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:33:27 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:33:27 | Query: '(from Order <generated>_2 in DbSet<Order> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+-------------------------------------------------------------------------------------------------------------------------
+08:33:28 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1004.6119ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:33:28 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:33:28 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 1266.7353ms
+-------------------------------------------------------------------------------------------------------------------------
+08:33:28 | Request finished in 1588.5884ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:39:53 | Failed to authenticate HTTPS connection.
+-------------------------------------------------------------------------------------------------------------------------
+08:39:54 | Request starting HTTP/1.1 GET https://localhost:5001/api/values  
+-------------------------------------------------------------------------------------------------------------------------
+08:39:55 | Request finished in 721.2067ms 404 
+-------------------------------------------------------------------------------------------------------------------------
+08:39:57 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+-------------------------------------------------------------------------------------------------------------------------
+08:39:57 | Request finished in 264.1655ms 200 text/html
+-------------------------------------------------------------------------------------------------------------------------
+08:39:59 | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+-------------------------------------------------------------------------------------------------------------------------
+08:39:59 | Request finished in 253.5397ms 200 application/json;charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:40:47 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll?skip=0&take=20  
+-------------------------------------------------------------------------------------------------------------------------
+08:40:47 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:40:47 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Query: '(from Car <generated>_2 in DbSet<Car> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 901.7577ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 1013.6152ms
+-------------------------------------------------------------------------------------------------------------------------
+08:40:48 | Request finished in 1147.9948ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Query: '(from Order <generated>_2 in DbSet<Order> select [<generated>_2]).Skip(__p_0).Take(__p_1)' uses a row limiting operation (Skip/Take) without OrderBy which may lead to unpredictable results.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 65.8705ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 103.3524ms
+-------------------------------------------------------------------------------------------------------------------------
+08:40:57 | Request finished in 131.4931ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 40.0687ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:13 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:14 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 316.7508ms
+-------------------------------------------------------------------------------------------------------------------------
+08:48:14 | Request finished in 654.2845ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:48:18 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:48:18 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:48:18 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 102.5731ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 226.5746ms
+-------------------------------------------------------------------------------------------------------------------------
+08:48:19 | Request finished in 321.8156ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:48:51 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:48:51 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:48:51 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:48:51 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:49:23 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:23 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 32579.7123ms
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 119.3764ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 32706.7996ms
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request finished in 32737.286ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 94.4506ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 88.6544ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | GET | /api/Order/GetAll | An error occurred while writing to logger(s). (The process cannot access the file 'E:\Work\Testing\Test\Beetroot\BeetrootTest\Logs\logger-22-04-2019.txt' because it is being used by another process.)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass4_0.<Define>b__0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Cors.Internal.CORSLoggerExtensions.PolicySuccess(ILogger logger)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService.EvaluateRequest(HttpContext context, CorsPolicy policy, CorsResult result)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService.EvaluatePolicy(HttpContext context, CorsPolicy policy)
+   at Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at BeetrootApi.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in E:\Work\Testing\Test\Beetroot\BeetrootTest\Middleware\ErrorHandlingMiddleware.cs:line 35
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 200.4317ms
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 260.5128ms
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request finished in 287.5904ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request finished in 302.3228ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:49:24 | Request finished in 32932.3905ms 500 application/json
+-------------------------------------------------------------------------------------------------------------------------
+08:50:28 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:50:28 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 61.525ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 67.5308ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 488.6428ms
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 525.0434ms
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Request finished in 888.3003ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:50:29 | Request finished in 775ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:51:26 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:51:26 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:51:26 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:26 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:51:27 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:51:27 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 80.0028ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:27 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:27 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 429.2668ms
+-------------------------------------------------------------------------------------------------------------------------
+08:51:27 | Request finished in 665.0744ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.379ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 83.6094ms
+-------------------------------------------------------------------------------------------------------------------------
+08:51:46 | Request finished in 122.5361ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.0896ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 67.6362ms
+-------------------------------------------------------------------------------------------------------------------------
+08:52:13 | Request finished in 105.3933ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 22.7747ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 65.891ms
+-------------------------------------------------------------------------------------------------------------------------
+08:56:19 | Request finished in 182.4012ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 24.1817ms.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 82.4156ms
+-------------------------------------------------------------------------------------------------------------------------
+08:56:34 | Request finished in 131.5997ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.4979ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 68.2264ms
+-------------------------------------------------------------------------------------------------------------------------
+09:01:11 | Request finished in 122.3154ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 25.1362ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 74.8552ms
+-------------------------------------------------------------------------------------------------------------------------
+09:02:48 | Request finished in 140.5552ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 33.295ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 94.2303ms
+-------------------------------------------------------------------------------------------------------------------------
+09:03:32 | Request finished in 144.7779ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.9384ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 237.8963ms
+-------------------------------------------------------------------------------------------------------------------------
+09:05:17 | Request finished in 739.829ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/Order/Create  
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter'.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 58.6717ms
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Request finished in 103.637ms 200 
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Request starting HTTP/1.1 POST https://localhost:5001/api/Order/Create application/json 96
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executing action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi) with arguments (BeetrootModels.DTO.NewOrderDTO) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executed action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 120.6412ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 217.0021ms
+-------------------------------------------------------------------------------------------------------------------------
+09:05:57 | Request finished in 242.5501ms 200 
+-------------------------------------------------------------------------------------------------------------------------
+09:06:47 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:06:47 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:06:47 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:06:47 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:06:47 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:06:48 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 83.6397ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:06:48 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:06:48 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 361.9135ms
+-------------------------------------------------------------------------------------------------------------------------
+09:06:48 | Request finished in 458.3407ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/Order/Create  
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter'.
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 45.4232ms
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Request finished in 156.1809ms 200 
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Request starting HTTP/1.1 POST https://localhost:5001/api/Order/Create application/json 94
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executing action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi) with arguments (BeetrootModels.DTO.NewOrderDTO) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executed action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 91.514ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 116.4319ms
+-------------------------------------------------------------------------------------------------------------------------
+09:08:28 | Request finished in 132.4236ms 200 
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Request starting HTTP/1.1 GET https://localhost:5001/api/Order/GetAll?skip=0&take=20  
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Route matched with {action = "GetAll", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Executing action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Executed action method BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 31.4906ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.OrderDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Executed action BeetrootTest.Controllers.OrderController.GetAll (BeetrootApi) in 53.018ms
+-------------------------------------------------------------------------------------------------------------------------
+09:09:53 | Request finished in 98.1218ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Request starting HTTP/1.1 GET https://localhost:5001/api/Car/GetAll  
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Route matched with {action = "GetAll", controller = "Car"}. Executing action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Executing action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) with arguments (0, 20) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Entity Framework Core 2.1.8-servicing-32085 initialized 'BeetrootDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=BeetrootContext 
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Executed action method BeetrootApi.Controllers.CarController.GetAll (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 165.7025ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BeetrootModels.DTO.CarDTO, BeetrootModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+-------------------------------------------------------------------------------------------------------------------------
+09:12:59 | Executed action BeetrootApi.Controllers.CarController.GetAll (BeetrootApi) in 354.2955ms
+-------------------------------------------------------------------------------------------------------------------------
+09:13:00 | Request finished in 406.0072ms 200 application/json; charset=utf-8
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/Order/Create  
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter'.
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 43.5303ms
+-------------------------------------------------------------------------------------------------------------------------
+09:13:35 | Request finished in 159.7594ms 200 
+-------------------------------------------------------------------------------------------------------------------------
+09:13:36 | Request starting HTTP/1.1 POST https://localhost:5001/api/Order/Create application/json 94
+-------------------------------------------------------------------------------------------------------------------------
+09:13:36 | Route matched with {action = "Create", controller = "Order"}. Executing action BeetrootTest.Controllers.OrderController.Create (BeetrootApi)
+-------------------------------------------------------------------------------------------------------------------------
+09:13:36 | Policy execution successful.
+-------------------------------------------------------------------------------------------------------------------------
+09:13:36 | Executing action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi) with arguments (BeetrootModels.DTO.NewOrderDTO) - Validation state: Valid
+-------------------------------------------------------------------------------------------------------------------------
+09:15:01 | Executed action method BeetrootTest.Controllers.OrderController.Create (BeetrootApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 49219.3987ms.
+-------------------------------------------------------------------------------------------------------------------------
+09:15:24 | Executing HttpStatusCodeResult, setting HTTP status code 200
+-------------------------------------------------------------------------------------------------------------------------
+09:15:24 | Executed action BeetrootTest.Controllers.OrderController.Create (BeetrootApi) in 108072.8569ms
+-------------------------------------------------------------------------------------------------------------------------
+09:15:24 | Request finished in 108145.0937ms 200 
+-------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,63 @@
+<div class="col">
+  <div class="col">
+    <h4 class="title-h4 title-h4__date col-md-9 offset-xl-1">
+      DATE & TIME
+    </h4>
+  </div>
+  <div class="inputs-position">
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class=inputs-block>
+          <div class="inputs">
+            <input id="dateFrom1"
+              class="input-date" type="text"
+              bsDatepicker
+              [formControl]="dateFrom" 
+              placeholder="Select date *">
+            <span class="input-img">
+              <img src="../../../assets/images/calendar.png" alt="Calendar">
+            </span>
+          </div>
+          <div [hidden]="dateFrom.valid" class="error-txt">This field is required</div>
+        </div>
+
+
+      </div>
+      <div class="col">
+        <div class=inputs-block>
+          <div class="inputs">
+            <input class="input-date" placeholder="Select time" type="text" [formControl]="timeFrom"  onfocus="(this.type='time')"
+              onblur="(this.type='text')" maxlength="6">
+            <span class="input-img">
+              <img src="../../../assets/images/clock.png" alt="Time">
+            </span>
+          </div>
+          <div [hidden]="timeFrom.valid" class="error-txt">This field is required</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="inputs-position">
+    <div class="row justify-content-center">
+      <div class="col">
+        <div class="inputs">
+          <input class="input-date" id="dateEnd" type="text" bsDatepicker [formControl]="dateTo" placeholder="Select date">
+          <span class="input-img">
+            <img src="../../../assets/images/calendar.png" alt="Calendar">
+          </span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="inputs">
+          <input class="input-date" type="text" onfocus="(this.type='time')" [formControl]="timeTo"  onblur="(this.type='text')"
+            placeholder="Select time">
+          <span class="input-img">
+            <img src="../../../assets/images/clock.png" alt="Time">
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

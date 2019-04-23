@@ -1,0 +1,114 @@
+.inputs-block{
+    margin-bottom: 25px;
+    position: relative;
+}
+.inputs{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.input-date, .input-message, .input-offers{
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 21%;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #1d3f6f;
+    border-radius: 4px;
+    color: #999999;
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        color: #999999;
+        opacity: 1; /* Firefox */
+      }
+      
+      &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        color: #999999;
+      }
+      
+      &::-ms-input-placeholder { /* Microsoft Edge */
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        color: #999999;
+      }
+}
+
+.title-h4{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #1d3f6f;
+}
+.title-h4__position{
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+.title-h4__date{
+    // margin-bottom: 0;
+    // margin-top: 10px;
+    // padding: 0;
+    margin: 0 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.input-img{
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    left: 90%;
+}
+.input-img__time-position{
+    left: 90%;
+}
+
+
+.error-txt{
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 13px;
+    font-size: 10px;
+    color: red;
+}
+
+
+.select-wrapper {
+    position: relative;
+    max-width: 242px;
+  }
+  .select-wrapper:after {
+    content: "\f0d7";
+    font-family: 'FontAwesome';
+    padding: 0 8px;
+    font-size: 18px;
+    position: absolute;
+    right: 8px;
+    top: 40%;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    color: #1d3f6f;
+  }
+  select {
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .message-wapper{
+    max-width: 558px;
+}

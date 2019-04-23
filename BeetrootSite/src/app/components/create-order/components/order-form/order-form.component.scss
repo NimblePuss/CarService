@@ -1,0 +1,70 @@
+
+.btns-from {
+    margin: 0 auto;
+    padding: 0 3px;
+  }
+  
+  .btn-send {
+    max-width: 135px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  
+    button {
+      width: 100%;
+      padding: 12px 0;
+      border: 1px solid #1d3f6f;
+      background-color: #1d3f6f;
+      color: #ffffff;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: 500;
+  
+      &:hover {
+        background-color: #ffffff;
+        border-color: #1d3f6f;
+        transition: ease .4s all;
+        color: #1d3f6f;
+      }
+    }
+  }
+  
+  .btn-send button:disabled {
+    cursor: not-allowed;
+    opacity: 0.75;
+  
+    &:hover {
+      background-color: #1d3f6f;
+      color: #ffffff;
+    }
+  }
+  
+  .btn-clear {
+    max-width: 135px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  
+    button {
+      width: 100%;
+      padding: 12px 0;
+      border: 1px solid #1d3f6f;
+      background-color: #ffffff;
+      color: #1d3f6f;
+      border-radius: 4px;
+      text-transform: uppercase;
+      font-weight: 500;
+  
+      &:hover {
+        border: 1px solid #1d3f6f;
+        background-color: #1d3f6f;
+        color: #ffffff;
+        transition: all .4s ease;
+      }
+    }
+  }
+
+  .btns{
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 50px;
+  }

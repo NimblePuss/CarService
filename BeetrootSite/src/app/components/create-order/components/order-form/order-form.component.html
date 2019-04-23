@@ -1,0 +1,37 @@
+<div [formGroup]="newOrderForm">
+
+  <div class="row justify-content-center">
+    <div class="col-6 border-right">
+      <app-date-form [newOrderForm]='newOrderForm'></app-date-form>
+      <app-service-form [newOrderForm]='newOrderForm'></app-service-form>
+
+    </div>
+    <div class="col-6">
+      <app-vehicle-form [newOrderForm]='newOrderForm'></app-vehicle-form>
+      <app-personal-form [newOrderForm]='newOrderForm'></app-personal-form>
+    </div>
+  </div>
+
+  <div class="row justify-content-center btns">
+    <div class="col-6 offset-6">
+      <div class="btns-from">
+        <div class="row justify-content-between">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-4">
+            <div class="btn-clear">
+              <button type="button" class="" (click)="clearData()">
+                <div class="">CLEAR</div>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xl-4">
+            <div class="btn-send">
+              <button type="button" [disabled]="newOrderForm.invalid" (click)="sendData()">send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>

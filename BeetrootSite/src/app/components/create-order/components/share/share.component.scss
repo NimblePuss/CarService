@@ -1,0 +1,92 @@
+.special-block {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.special-block__h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #1d3f6f;
+}
+
+.special-block__text {
+  font-size: 16px;
+  color: #5b5b5b;
+
+  span {
+    display: block;
+  }
+}
+
+
+.socials {
+  padding-top: 60px;
+}
+
+.fb,
+.twit {
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.fb-wrapper {
+  margin-left: auto;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #3e59a5;
+  max-width: 60px;
+  border: 1px solid #3e59a5;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+
+  .fa-facebook-square {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #3e59a5;
+    transition: all .4s ease;
+
+    .fa-facebook-square {
+      color: #3e59a5;
+    }
+  }
+}
+
+.twit-wrapper {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  background-color: #1b95e0;
+  max-width: 63px;
+  border: 1px solid #1b95e0;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+
+  .fa-twitter {
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #1b95e0;
+    transition: all .4s ease;
+
+    .fa-twitter {
+      color: #1b95e0;
+    }
+  }
+}

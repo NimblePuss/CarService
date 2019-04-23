@@ -1,0 +1,131 @@
+.works-block {
+  padding: 0 15px;
+}
+
+.works-block__days {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.subtitle-grey {
+  display: block;
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #666666;
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+.works-block__hours {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.title-h4 {
+  width: 100%;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #1d3f6f;
+}
+
+.radio-block {
+  text-align: left;
+}
+
+// radio begin
+input[type="radio"] {
+  text-align: left;
+  -webkit-appearance: checkbox;
+  /* Chrome, Safari, Opera */
+  -moz-appearance: checkbox;
+  /* Firefox */
+  -ms-appearance: checkbox;
+  /* not currently supported */
+}
+
+.radio {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  &+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+  }
+
+  // Box.
+  &+label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 1px solid #cccccc;
+  }
+
+  // Box hover
+  &:hover+label:before {
+    // background: #f35429;
+    border: 1px solid #1d3f6f;
+    transition: all .4s ease;
+  }
+
+  // Box focus
+  &:focus+label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked+label:before {
+    border: 1px solid #1d3f6f;
+
+  }
+
+  // Disabled state label.
+  &:disabled+label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled+label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked+label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: #1d3f6f;
+    width: 2px;
+    height: 2px;
+    box-shadow:
+      2px 0 0 #1d3f6f,
+      4px 0 0 #1d3f6f,
+      4px -2px 0 #1d3f6f,
+      4px -4px 0 #1d3f6f,
+      4px -6px 0 #1d3f6f,
+      4px -8px 0 #1d3f6f;
+    transform: rotate(45deg);
+  }
+}

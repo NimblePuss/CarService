@@ -1,0 +1,77 @@
+
+ <div [formGroup]="serviceForm" class="row justify-content-center">
+    <div class="col">
+        <div class="works-block">
+            <h4 class="title-h4">
+                Store Hours
+            </h4>
+            <div class="works-block__days">
+                    Mon - Wed
+            </div>
+            <div class="works-block__hours">
+                    08:00 AM - 05:00 PM
+            </div>
+            <div class="works-block__days">
+                    Thu
+            </div>
+            <div class="works-block__hours">
+                    08:00 AM - 04:00 PM
+            </div>
+            <div class="works-block__days">
+                    Fri
+            </div>
+            <div class="works-block__hours">
+                    08:00 AM - 01:00 PM
+            </div>
+            <div class="works-block__days">
+                    Sat
+            </div>
+            <div class="works-block__hours">
+                    CLose
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="supports-block">
+            <h4 class="title-h4">
+                    Choose your services
+                <span class="subtitle-grey">Please select the type of service(s) needed</span>
+            </h4>
+            
+            <div class="radio-block">
+                <input id="transmission" class="radio" 
+                        type="checkbox" 
+                        name="supports" 
+                        value="transmission" 
+                        formControlName="transmission">
+                <label class="checkmark" for="transmission">Transmission</label>
+            </div>
+            <div class="radio-block">
+                <input id="maintenance"  class="radio" 
+                        type="checkbox" 
+                        name="supports" 
+                        value="maintenance" 
+                        formControlName="maintenance"
+                        >
+                <label class="checkmark" for="maintenance">Vehicle Maintenance</label>
+            </div>
+            <div class="radio-block">
+                <input id="rapair" class="radio"
+                        type="checkbox" 
+                        name="supports" 
+                        value="repair" 
+                        formControlName="repair">
+                <label class="checkmark" for="rapair">Vehicle Rapair</label>
+            </div>
+            <div class="radio-block">
+                <input id="other" class="radio" 
+                        type="checkbox" 
+                        name="supports"
+                        value="other" 
+                        formControlName="other"
+                        [value]="true">
+                <label class="checkmark" for="other">Other</label>
+            </div>
+        </div>
+    </div>
+</div>

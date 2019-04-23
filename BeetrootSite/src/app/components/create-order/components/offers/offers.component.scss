@@ -1,0 +1,199 @@
+.special-block {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.special-block__h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #1d3f6f;
+}
+
+.special-block__text {
+  font-size: 16px;
+  color: #5b5b5b;
+
+  span {
+    display: block;
+  }
+}
+
+.btn-send button:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+
+  &:hover {
+    background-color: #1d3f6f;
+    color: #ffffff;
+  }
+}
+
+.btn-clear {
+  max-width: 135px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #1d3f6f;
+    background-color: #ffffff;
+    color: #1d3f6f;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover {
+      border: 1px solid #1d3f6f;
+      background-color: #1d3f6f;
+      color: #ffffff;
+      transition: all .4s ease;
+    }
+  }
+}
+
+
+.inputs-block {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.inputs {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  max-width: 242px;
+}
+
+.input-date,
+.input-message,
+.input-offers {
+  max-width: 242px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding-left: 15px;
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-right: 21%;
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #1d3f6f;
+  border-radius: 4px;
+  color: #999999;
+
+  &::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+  }
+
+  &::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: #999999;
+  }
+}
+
+
+
+.order-form {
+  padding-bottom: 50px;
+}
+
+.order-block__h2 {
+  padding: 30px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #1d3f6f;
+  text-align: center;
+}
+
+.border-top__grey {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  border-top: 1px solid #cccccc;
+  overflow-x: hidden;
+}
+
+
+.send-form {
+  max-width: 80%;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.input-offers {
+  max-width: 285px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: none;
+}
+
+.btns-from {
+  max-width: 66%;
+  margin: 0 auto;
+  padding: 0 3px;
+}
+
+.btn-send {
+  max-width: 135px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #1d3f6f;
+    background-color: #1d3f6f;
+    color: #ffffff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &:hover {
+      background-color: #ffffff;
+      border-color: #1d3f6f;
+      transition: ease .4s all;
+      color: #1d3f6f;
+    }
+  }
+}
+
+
+.max-width__sned {
+  max-width: 75px;
+  display: inline-block;
+
+  button {
+    padding: 10px 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+
+.error-txt {
+  position: absolute;
+  padding-top: 3px;
+  padding-left: 13px;
+  font-size: 10px;
+  color: red;
+}
+
+.error-position {
+  left: 38%;
+  transform: translateX(-13%);
+}

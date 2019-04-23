@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeetrootApi", "BeetrootTest\BeetrootApi.csproj", "{66C1807B-3BEB-4835-A650-22FBD553E73B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeetrootModels", "BeetrootModels\BeetrootModels.csproj", "{0BFA68B8-FACC-4356-8B29-89B363545DB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeetrootRepositories", "BeetrootRepositories\BeetrootRepositories.csproj", "{72C5A576-21FA-4595-815A-4333E938360B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BeetrootSite", "..\..\Finish\Beetroot\BeetrootSite\", "{F1C0C72A-007C-4DEC-83EF-07231003674C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53906"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Finish\Beetroot\BeetrootSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53906\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53906"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Finish\Beetroot\BeetrootSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53906\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53906"
+		SlnRelativePath = "..\..\Finish\Beetroot\BeetrootSite\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66C1807B-3BEB-4835-A650-22FBD553E73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C1807B-3BEB-4835-A650-22FBD553E73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C1807B-3BEB-4835-A650-22FBD553E73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C1807B-3BEB-4835-A650-22FBD553E73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BFA68B8-FACC-4356-8B29-89B363545DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BFA68B8-FACC-4356-8B29-89B363545DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BFA68B8-FACC-4356-8B29-89B363545DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BFA68B8-FACC-4356-8B29-89B363545DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C5A576-21FA-4595-815A-4333E938360B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C5A576-21FA-4595-815A-4333E938360B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C5A576-21FA-4595-815A-4333E938360B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C5A576-21FA-4595-815A-4333E938360B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C0C72A-007C-4DEC-83EF-07231003674C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C0C72A-007C-4DEC-83EF-07231003674C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C0C72A-007C-4DEC-83EF-07231003674C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C0C72A-007C-4DEC-83EF-07231003674C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F491AD9E-B71C-4479-AD7E-E7DDBD65DC12}
+	EndGlobalSection
+EndGlobal

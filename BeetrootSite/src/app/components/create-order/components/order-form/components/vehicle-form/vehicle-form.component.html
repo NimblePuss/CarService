@@ -1,0 +1,40 @@
+<div [formGroup]="carForm" class="col">
+  <div class="col">
+    <h4 class="title-h4 title-h4__position col-md-9">
+      Your Vehicle
+    </h4>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col">
+      <div class="inputs-block">
+        <input type="number" class="input-date" name="date"
+         formControlName="year"
+         bsDatepicker [bsConfig]="{dateInputFormat: 'YYYY'}" 
+                placeholder="YEAR OF CAR" >
+        <div [hidden]="carForm.get('year').valid" class="error-txt">Enter Car year</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="inputs-block">
+        <div class="select-wrapper">
+          <select class="input-date" formControlName="name">
+            <option [value]="" disabled selected>SELECT YOUR CAR</option>
+            <option *ngFor="let car of cars" [value]="car.name">{{car.name}}</option>
+          </select>
+          <div [hidden]="carForm.get('name').valid" class="error-txt">Enter Car name</div>
+        </div>
+        <div [hidden]="!isEmptyCarModel" class="error-txt">
+          Please, select your car.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col">
+      <div class="message-wapper">
+        <input type="text" class="input-message" [formControl]="message" placeholder="WRITE YOUR MESSAGE" maxlength="100">
+      </div>
+    </div>
+  </div>
+</div>

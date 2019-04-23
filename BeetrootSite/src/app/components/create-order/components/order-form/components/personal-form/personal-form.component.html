@@ -1,0 +1,35 @@
+<div [formGroup]="personalForm" class="col">
+  <div class="col">
+    <h4 class="title-h4 title-h4__personal col-xl-9 offset-xl-2">
+      PERSONAL DETAILS
+    </h4>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div class="inputs-block">
+        <input type="text" class="input-date" placeholder="FIRST NAME" formControlName="firstName">
+        <div [hidden]="personalForm.get('firstName').valid" class="error-txt">Enter your name</div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="inputs-block">
+        <input type="text" class="input-date" placeholder="SECOND NAME" formControlName="secondName">
+        <div [hidden]="personalForm.get('secondName').valid" class="error-txt">Enter Last name</div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div class="inputs-block">
+        <input type="text" class="input-date" placeholder="EMAIL" formControlName="email">
+        <div [hidden]="personalForm.get('email').valid" class="error-txt">Email isn't valid</div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="inputs-block">
+        <input type="text" class="input-date" placeholder="PHONE NUMBER" maxlength="10" formControlName="phone">
+        <div [hidden]="personalForm.get('phone').valid" class="error-txt">Enter your phone</div>
+      </div>
+    </div>
+  </div>
+</div>
